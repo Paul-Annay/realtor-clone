@@ -46,7 +46,7 @@ export default function Header() {
                             Home
                         </li>
                         <li
-                            className={`py-3 cursor-pointer text-sm font-semibold text-gray-400  border border-b-[3px]  ${
+                            className={`py-3 cursor-pointer text-sm font-semibold text-gray-400 border-b-[3px]  ${
                                 pathMatchRoute("/offers")
                                     ? "text-black border-b-red-500"
                                     : "border-b-transparent"
