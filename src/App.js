@@ -28,7 +28,12 @@ function App() {
                         element={<ForgotPassword />}
                     />
                     <Route path='/offers' element={<Offers />} />
-                    <Route path='/create-listing' element={<CreateListing />} />
+                    <Route path='/create-listing'>
+                        <Route
+                            path='/create-listing'
+                            element={<CreateListing />}
+                        />
+                    </Route>
                 </Routes>
             </Router>
             <ToastContainer
